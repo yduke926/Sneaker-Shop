@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #fdfdfd;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* COLOR VARIBALES */
+
+$color-text-dark: rgb(20, 20, 20);
+$color-text-medium: rgb(85, 84, 84);
+$color-text-light:rgb(112, 112, 112);
+
+
+.content {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50vh 1fr;
+    align-items: center;
+    justify-content: center;
+
+    .btn {
+        align-self: start;
+    }
+}
