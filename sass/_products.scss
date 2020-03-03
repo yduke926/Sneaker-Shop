@@ -1,7 +1,7 @@
 .products {
     height: 100vh;
     width: 85%;
-    padding: 10rem 0;
+    padding: 5rem 0;
     margin: auto;
     display: grid;
     grid-template-rows: min-content 1fr;
@@ -23,6 +23,35 @@
         .btn {
             justify-self: end;
         }
+    }
 
+    &__images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 5rem;
+        column-gap: 10rem;
+
+        &--container {
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &--content {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: .3rem;
+
+                padding: 1rem;
+                justify-self: center;
+
+                .name {
+                    justify-self: center;
+                }
+            }
+        }
     }
 }

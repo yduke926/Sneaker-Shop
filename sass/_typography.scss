@@ -13,6 +13,25 @@ a {
     color: $color-text-medium;
 }
 
+.text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: .8px;
+
+    &--dark {
+        color: $color-text-dark;
+    }
+
+    &--medium {
+        color: $color-text-medium;
+    }
+
+    &--light {
+        color: $color-text-light;
+    }
+
+}
+
 .btn {
     font-size: 1.5rem;
     border: 2px solid $color-text-dark;
