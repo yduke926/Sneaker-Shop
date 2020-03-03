@@ -28,11 +28,13 @@
     &__images {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
         row-gap: 5rem;
         column-gap: 10rem;
 
         &--container {
+            display: grid;
+            grid-template-rows: 1fr min-content;
 
             img {
                 width: 100%;
@@ -44,12 +46,12 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 row-gap: .3rem;
-
-                padding: 1rem;
+                width: 100%;
                 justify-self: center;
+                padding: 1rem;
 
                 .name {
-                    justify-self: center;
+                    justify-self: end;
                 }
             }
         }
