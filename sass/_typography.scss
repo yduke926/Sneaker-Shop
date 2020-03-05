@@ -35,7 +35,7 @@ a {
 .btn {
     font-size: 1.5rem;
     border: 2px solid $color-text-dark;
-    box-shadow: 1px 1px 5px 1px rgba($color: #000000, $alpha: .2);
+    box-shadow: $box-shadow-light;
     padding: 1rem 2rem;
     text-align: center;
     transition: all ease-in-out .4s;
@@ -46,7 +46,7 @@ a {
     &--orange:active {
         color: #fdfdfd;
         background-color: $color-text-dark;
-        box-shadow: 2px 3px 8px 3px rgba($color: #000000, $alpha: .2);
+        box-shadow: $box-shadow-medium;
     }
 
     &--orange {
