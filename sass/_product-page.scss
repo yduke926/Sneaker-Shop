@@ -12,21 +12,20 @@
         &--img {
             height: 100%;
             display: grid;
+            align-items: start;
 
 
-            img {
+            .product-img {
                 width: 100%;
                 position: relative;
                 z-index: 1;
             }
 
-            i {
-                font-size: 5rem;
+            .icon {
                 position: absolute;
                 justify-self: end;
                 padding-top: 2rem;
                 padding-right: 3rem;
-                color: #fdfdfd;
                 z-index: 10;
             }
         }
