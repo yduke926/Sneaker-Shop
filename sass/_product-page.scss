@@ -113,6 +113,13 @@
                 &:hover {
                     color: $color-text-orange;
                 }
+
+                &.active,
+                &:active {
+                    background-color: $color-text-orange;
+                    color: #fdfdfd;
+                    box-shadow: $box-shadow-light;
+                }
             }
         }
 
