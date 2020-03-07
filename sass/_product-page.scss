@@ -1,6 +1,6 @@
 .productBody {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) 20%;
     width: 100vw;
 
     &__left {
@@ -118,8 +118,13 @@
 
         &--cta {
             display: grid;
-            // align-self: start;
+            align-self: start;
+            margin-top: 10rem;
         }
 
+    }
+
+    &__back {
+        padding-top: 8rem;
     }
 }
